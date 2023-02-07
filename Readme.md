@@ -1,5 +1,6 @@
 # Kata FizzBuzz Java
 <img src="/src/img/final_result.jpg" alt="Index" width="300">
+
 ## Requiered
 - JDK 11
 - JUnit
