@@ -5,12 +5,10 @@ public class App
     public static void main( String[] args )
     {
         
-        new FizzBuzz();
-        // FizzBuzz fizzbuzz = new FizzBuzz();
-        // for (int i = 1; i <= 100; i++) {
-        //     System.out.println( fizzbuzz.convert(i) );
-        // }
-        
-    }
-
+        FizzBuzz checking = new FizzBuzz();
+        for (int i = 1; i <= 100; i++) {
+            String result = checking.FizzBuzzCheck(i);
+            System.out.println(result);
+        }
+        }
 }

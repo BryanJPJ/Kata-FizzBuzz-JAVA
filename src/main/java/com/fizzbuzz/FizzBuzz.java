@@ -1,6 +1,6 @@
 package com.fizzbuzz;
 
-public class FizzBuzz {
+public class FizzBuzz{
 
     public String FizzBuzzCheck(int numb){
         if(numb % 3 == 0 && numb % 5 == 0){
@@ -11,9 +11,5 @@ public class FizzBuzz {
             return "fizz";
         }
         return Integer.toString(numb);
-    }
-
-    public char[] convert(int i) {
-        return null;
     }
 }

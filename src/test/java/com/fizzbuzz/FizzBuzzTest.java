@@ -30,14 +30,4 @@ public class FizzBuzzTest {
         String result = fizzBuzz.FizzBuzzCheck(1);
         assertEquals("1", result);
     }
-    /**
-     * 
-     */
-    @Test
-    public void test_appWorks(){
-        FizzBuzz fizzbuzz = new FizzBuzz();
-        for (int i = 1; i <= 100; i++) {
-            System.out.println( fizzbuzz.convert(i) );
-        }
-    }
 }
